@@ -1,4 +1,18 @@
-// Variables para definir columnas y filas
+/*---------------------------------
+ Name: Donec dignissim elementum
+ Date: Sept 2024
+ Tittle:  Sed laoreet dolor eu ur
+ Description:
+ 
+ It was popularised in the 1960s with the release of
+ Letraset sheets containing Lorem Ipsum passages,
+ and more recently with desktop publishing
+ software like Aldus PageMaker including versions
+ of Lorem Ipsum
+ Links:
+ https://www.lipsum.com/feed/html
+ https://www.lipsum.com/feed/html
+ -----------------------------------*/// Variables para definir columnas y filas
 int cols, rows;
 int scale = 20;  
 int w = 1400;  
