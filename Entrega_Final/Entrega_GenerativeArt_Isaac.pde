@@ -1,18 +1,20 @@
 /*---------------------------------
- Name: Donec dignissim elementum
+ Name: Isaac Munoz Puig
  Date: Sept 2024
- Tittle:  Sed laoreet dolor eu ur
+ Tittle:  Echoes of Light
  Description:
  
- It was popularised in the 1960s with the release of
- Letraset sheets containing Lorem Ipsum passages,
- and more recently with desktop publishing
- software like Aldus PageMaker including versions
- of Lorem Ipsum
+Echos of Light is generative artwork, that every time you start the code creates a new pattern of paths for the particles to follow. 
+It began with the idea of how birds would see the streets of the cities with all the movement of the cars moving around, ending in 
+an abstract representation of an infinite range of images and possibilities.
+
  Links:
  https://www.lipsum.com/feed/html
  https://www.lipsum.com/feed/html
  -----------------------------------*/// Variables para definir columnas y filas
+
+
+// Variables para definir columnas y filas
 int cols, rows;
 int scale = 20;  
 int w = 1400;  
@@ -24,7 +26,7 @@ ArrayList<Particle> particles = new ArrayList<Particle>();
 ArrayList<Particle2> particles2 = new ArrayList<Particle2>();
 ArrayList<Particle3> particles3 = new ArrayList<Particle3>();
 
-//int frameCount = 0;  // Contador de fotogramas
+int frameCount = 0;  // Contador de fotogramas
 
 void setup() {
   size(800, 800);
@@ -121,7 +123,7 @@ void draw() {
   }
   
   // Guardar cada fotograma como una imagen
-  /*saveFrame("output3/frame-####.png");  // Guarda cada cuadro en la carpeta "output"
+  saveFrame("output3/frame-####.png");  // Guarda cada cuadro en la carpeta "output"
   
   // Incrementar el contador de cuadros
   frameCount++;
@@ -129,5 +131,5 @@ void draw() {
   // Detener el sketch después de, por ejemplo, 300 cuadros (ajusta según la duración deseada)
   if (frameCount == 600) {
     exit();  // Detiene el sketch
-  }*/
+  }
 }
