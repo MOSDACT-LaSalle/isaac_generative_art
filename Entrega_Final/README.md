@@ -1,1 +1,0 @@
-# isaac_generative_art
